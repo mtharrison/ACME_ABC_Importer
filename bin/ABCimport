@@ -1,0 +1,30 @@
+require_relative '../bootstrap.rb'
+
+require 'ABCImporter'
+require 'FileReader'
+require 'XMLDocument'
+require 'Logger'
+
+include ACMEJobStreamerImport
+
+importer     = ABCImporter.new CONFIG
+file_reader  = FileReader.new  CONFIG
+logger       = Logger.new 	   CONFIG
+
+start_time = Time.now
+
+logger.info "Import started"
+
+file_reader.get_import_files.each do |file|
+  importer.process_file file, :addition
+end
+
+importer.refresh_lookup
+
+file_reader.get_deletion_files.each do |file|
+  importer.process_file file, :deletion
+end
+
+end_time = Time.now
+
+logger.info "Import complete in #{end_time - start_time}s. Processed #{importer.processed_files} files and #{importer.processed_records} records with #{importer.inserts} inserts, #{importer.updates} updates and #{importer.deletes} deletions. Performed #{importer.get_queries} DB queries"

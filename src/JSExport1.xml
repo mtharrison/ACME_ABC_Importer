@@ -1,0 +1,30 @@
+<ExportValues>
+ <Person>
+  <PersID><![CDATA[TI0N1PLS241020120000]]></PersID>
+  <PersName><![CDATA[Rachel Roberts]]></PersName>
+  <NewLogin><![CDATA[rachelroberts@yahoo.co.uk]]></NewLogin>
+  <NewPassword>cGFzc3dvcmQ=</NewPassword>
+  <AreaCode><![CDATA[UWR%]]></AreaCode>
+  <SkillCode><![CDATA[PI]]></SkillCode>
+  <JobTitleCode><![CDATA[EXE]]></JobTitleCode>
+  <Experience>1014</Experience>
+  <TempOrPerm><![CDATA[0,1]]></TempOrPerm>
+  <InCode><![CDATA[IH]]></InCode>
+  <HashValue><![CDATA[92d2092743d0b0e32b724d49c4a1b206]]></HashValue>
+  <ChangeDate>3</ChangeDate>
+ </Person>
+ <Person>
+  <PersID><![CDATA[TI0N75JK140220130000]]></PersID>
+  <PersName><![CDATA[Jim Smith]]></PersName>
+  <NewLogin><![CDATA[jsmith@gmail.com]]></NewLogin>
+  <NewPassword>cGFzc3dvcmQ=</NewPassword>
+  <AreaCode><![CDATA[ULC]]></AreaCode>
+  <SkillCode><![CDATA[SHE,CLIF]]></SkillCode>
+  <JobTitleCode><![CDATA[SOL]]></JobTitleCode>
+  <Experience>3</Experience>
+  <TempOrPerm><![CDATA[0,1]]></TempOrPerm>
+  <InCode><![CDATA[IH]]></InCode>
+  <HashValue><![CDATA[56e8a1c744dac190e5c4c7ee5c924374]]></HashValue>
+  <ChangeDate>0</ChangeDate>
+ </Person>
+ </ExportValues>

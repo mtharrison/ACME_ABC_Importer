@@ -1,0 +1,57 @@
+production:
+  database:
+    host: '127.0.0.1'
+    user: 'acmelegal_web'
+    database: 'acmelegal_site'
+    password: 'kdfhbglakjsdhg'
+    streamer_table: 'acme_streamer'
+    abc_file_hashes_table: 'abc_file_hashes'
+  files:
+    temp_location: "/tmp/"
+    addition_files_pattern: "/home/acmelegal/public_html/fileupload/JSExport[0-9]*.xml"
+    deletion_files__pattern: "/home/acmelegal/public_html/fileupload/JSExportDel[0-9]*.xml"
+    log_file: "/logs/application.log"
+  twilio:
+    account_sid: "AC591be8985ff7ae47491b1bd31a27268c"
+    auth_token: "21d82636ebef85a001e4290a8fdbbbd8"
+    send_number: "+441634621087"
+    receive_number: "+447715545553"
+    message_prefix: "Production env; "
+development:
+  database:
+    host: '127.0.0.1'
+    user: 'acmelegal_web'
+    database: 'acmelegal_site'
+    password: 'kdfhbglakjsdhg'
+    streamer_table: 'acme_streamer_test'
+    abc_file_hashes_table: 'abc_file_hashes'
+  files:
+    temp_location: "/tmp/"
+    addition_files_pattern: "/src/JSExport[0-9]*.xml"
+    deletion_files__pattern: "/src/JSExportDel[0-9]*.xml"
+    log_file: "/logs/application.log"
+  twilio:
+    account_sid: "AC591be8985ff7ae47491b1bd31a27268c"
+    auth_token: "21d82636ebef85a001e4290a8fdbbbd8"
+    send_number: "+441634621087"
+    receive_number: "+447715545553"
+    message_prefix: "Development env; "
+test:
+  database:
+    host: '127.0.0.1'
+    user: 'acmelegal_web'
+    database: 'acmelegal_site'
+    password: 'kdfhbglakjsdhg'
+    streamer_table: 'acme_streamer'
+    abc_file_hashes_table: 'abc_file_hashes'
+  files:
+    temp_location: "/tests/tmp/"
+    addition_files_pattern: "/vagrant/tests/tmp/JSExport[0-9]*.xml"
+    deletion_files__pattern: "/vagrant/tests/tmp/JSExportDel[0-9]*.xml"
+    log_file: "/logs/application.log.test"
+  twilio:
+    account_sid: "AC591be8985ff7ae47491b1bd31a27268c"
+    auth_token: "21d82636ebef85a001e4290a8fdbbbd8"
+    send_number: "+441634621087"
+    receive_number: "+447715545553"
+    message_prefix: "Test env; "

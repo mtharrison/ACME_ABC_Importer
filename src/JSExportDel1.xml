@@ -1,0 +1,14 @@
+<ExportValues>
+ <Person>
+  <PersID><![CDATA[TI0ZVNGH140120080021]]></PersID>
+  <PersName><![CDATA[John Doe]]></PersName>
+  <NewLogin><![CDATA[john_doe@hotmail.com]]></NewLogin>
+  <ChangeDate>10</ChangeDate>
+ </Person>
+ <Person>
+  <PersID><![CDATA[TI0Y6HGH270220070019]]></PersID>
+  <PersName><![CDATA[Frances Harrison]]></PersName>
+  <NewLogin><![CDATA[francesharrion@hotmail.com]]></NewLogin>
+  <ChangeDate>10</ChangeDate>
+ </Person>
+ </ExportValues>
