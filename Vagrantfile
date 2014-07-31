@@ -4,6 +4,7 @@ sudo apt-get install ruby1.9.3 -y
 echo mysql-server mysql-server/root_password password strangehat | sudo debconf-set-selections
 echo mysql-server mysql-server/root_password_again password strangehat | sudo debconf-set-selections
 sudo apt-get install mysql-server -y
+sudo apt-get install build-essential -y
 SCRIPT
 
 VAGRANTFILE_API_VERSION = "2"

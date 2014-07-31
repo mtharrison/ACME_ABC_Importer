@@ -81,7 +81,7 @@ class DatabaseTest < Minitest::Test
 
     assert_equal rows.to_a[0]['name'],      "Matt Harrison"
     assert_equal rows.to_a[0]['email'],     "hi@matt-harrison.com"
-    assert_equal rows.to_a[0]['location'],  "20,21,22,23"
+    assert_equal rows.to_a[0]['location'],  "20,23"
     assert_equal rows.to_a[0]['area'],      "96"
     assert_equal rows.to_a[0]['title'],     "7,8,9"
     assert_equal rows.to_a[0]['type'],      "1,2"
@@ -108,7 +108,7 @@ class DatabaseTest < Minitest::Test
 
     assert_equal rows.to_a[0]['name'],      "Matt Harrison"
     assert_equal rows.to_a[0]['email'],     "hi@matt-harrison.com"
-    assert_equal rows.to_a[0]['location'],  "20,21,22,23"
+    assert_equal rows.to_a[0]['location'],  "20,23"
     assert_equal rows.to_a[0]['area'],      "96"
     assert_equal rows.to_a[0]['title'],     "7,8,9"
     assert_equal rows.to_a[0]['type'],      "1"
